@@ -1,0 +1,24 @@
+type:
+    css: span.hprt-roomtype-icon-link
+    xpath: null
+    multiple: true
+    type: Text
+Number:
+    css: td.hprt-table-cell.-first
+    xpath: null
+    type: Attribute
+    attribute: rowspan
+    multiple: true
+price:
+    css: div.bui-price-display__value
+    xpath: null
+    multiple: true
+    type: Text
+start_date:
+    css: a.av-summary-value.av-summary-checkin
+    xpath: null
+    type: Text
+end_date:
+    css: a.bui-date__title.av-summary-checkout
+    xpath: null
+    type: Text

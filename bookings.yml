@@ -1,0 +1,15 @@
+hotels:
+    css: div.sr_item
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: 'span.sr-hotel__name'
+            xpath: null
+            type: Text
+            multiple: true
+        link:
+            css: 'a.txp-cta'
+            xpath: null
+            type: Link
+            multiple: true
